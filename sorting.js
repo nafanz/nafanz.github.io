@@ -1,5 +1,3 @@
-<script type="text/javascript">
-<!--
 /*
 originally written by paul sowden <paul@idontsmoke.co.uk> | http://idontsmoke.co.uk
 modified and localized by alexander shurkayev <alshur@ya.ru> | http://htmlcssjs.ru
@@ -154,5 +152,3 @@ if (root){
     if (root.addEventListener) root.addEventListener("load", init, false);
     else if (root.attachEvent) root.attachEvent("onload", init);
 }
-//-->
-</script>
