@@ -1,0 +1,24 @@
+/* наша HTML таблица */
+table.sort{
+border-spacing:0.1em;
+margin-bottom:1em;
+margin-top:1em
+}
+/* ячейки таблицы */
+table.sort td{
+border:1px solid #CCCCCC;
+padding:0.3em 1em
+}
+/* заголовки таблицы */
+table.sort thead td{
+cursor:pointer;
+cursor:hand;
+font-weight:bold;
+text-align:center;
+vertical-align:middle
+}
+/* заголовок отсортированного столбца */
+table.sort thead td.curcol{
+background-color:#999999;
+color:#FFFFFF
+}
