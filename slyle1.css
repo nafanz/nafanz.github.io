@@ -1,0 +1,14 @@
+.left{    
+    width: 50%;
+    min-height: 50%;
+    background: gold;
+    float: left;
+    border-radius: 50%;
+}
+.right{    
+    width: 50%;
+    min-height: 50%;
+    background: tomato;   
+    margin-left: 50%;
+    border-radius: 40px;
+}
