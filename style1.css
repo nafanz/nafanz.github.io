@@ -1,14 +1,27 @@
-.left{    
-    width: 50%;
-    min-height: 50%;
-    background: gold;
-    float: left;
-    border-radius: 50%;
+.flex-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
 }
-.right{    
-    width: 50%;
-    min-height: 50%;
-    background: tomato;   
-    margin-left: 50%;
-    border-radius: 40px;
+
+.left{
+display: inline-flex;
+width: 50%;
+min-height: 50%;
+background: gold;
+float: left;
+border-radius: 50%;
+}
+
+.right{
+display: inline-flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: stretch;
+width: 50%;
+min-height: 50%;
+background: tomato;   
+margin-left: 50%;
+border-radius: 40px;
 }
