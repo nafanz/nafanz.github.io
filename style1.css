@@ -1,27 +1,28 @@
 .flex-container{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-}
-
-.left{
-display: inline-flex;
-width: 50%;
-min-height: 50%;
-background: gold;
-float: left;
-border-radius: 50%;
-}
-
-.right{
-display: inline-flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: stretch;
-width: 50%;
-min-height: 50%;
-background: tomato;   
-margin-left: 50%;
-border-radius: 40px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .left{
+    display: inline-flex;
+    width: 90%;
+    min-height: 10%;
+    background: gold;
+    float: left;
+    border-radius: 50%;
+    }
+    
+    .right{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 70%;
+    min-height: 60%;
+    background: tomato;   
+    margin-left: 20%;
+    border-radius: 10px;
+    }
+    
