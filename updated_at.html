@@ -1,17 +1,18 @@
-<html>
+import requests
 
- <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>nafanz</title>
- </head>
+from flask import Flask
+app = Flask(__name__)
 
- <body>
-    <script type="text/python">
-        #!/usr/bin/env python3
-        print("Content-type: text/html")
-        print()
-        print("<h1>Hello world!</h1>")
-    </script>
-</body>
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
-</html>
+
+@app.route("/")
+def index():
+    rs = requests.get("https://api.github.com/repos/nafanz/nafanz.github.io")
+    repos = rs.json()
+    return repos['updated_at']
+
+
+if __name__ == '__main__':
+    app.run(port=5000)
