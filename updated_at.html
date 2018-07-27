@@ -1,14 +1,25 @@
 <html>
-<body>
-<script type="text/python">
-import requests
-import json
-
-r = requests.get("https://api.github.com/repos/nafanz/nafanz.github.io")
-
-repos = r.json()
-
-print(repos['updated_at'])
-</script>
+ <head>
+  <meta charset="utf-8">
+  <title>nafanz</title>
+  <style type="text/css"> 
+           body { background-color:#edeef0; }  
+           * { margin: 0; padding: 0; }
+           p { padding: 10px; }
+           #left { position: absolute; left: 0; top: 0; width: 50%; }
+           #right { position: absolute; right: 0; top: 0; width: 50%; } 
+ </style>
+ </head>
+ <body>
+    <script type="text/python">
+        import requests
+        import json
+        
+        r = requests.get("https://api.github.com/repos/nafanz/nafanz.github.io")
+        
+        repos = r.json()
+        
+        print(repos['updated_at'])
+        </script>
 </body>
 </html>
