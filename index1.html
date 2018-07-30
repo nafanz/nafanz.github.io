@@ -1,77 +1,9 @@
-<html>
-
-<head>
-    <link rel="stylesheet" href="style.css" />
-    <title>nex</title>
-    <script>
-        function get_updated_at(div_id) {
-            var url = "https://api.github.com/repos/nafanz/nafanz.github.io";
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', url, true);
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    var repos = JSON.parse(xhr.responseText);
-                    document.getElementById(div_id).innerHTML = repos['updated_at'];
-                }
-            };
-            xhr.send();
-        }
-    </script>
-</head>
-
-<body>
-	<script src="sorting.js"></script>
-	<div class="container">
-		<h1>nafanz</h1>
-		   <nav>
-			<a href="#">Seedbox1</a>
-			<a href="#page2">Seedbox2</a>
+<div class="container">
+		<h1>Одностраничный статичный сайт</h1>
+		<nav>
+		<a href="#">ссылка1</a>
+		<a href="#page2">ссылка2</a>		
 		</nav>
-			<div class="page" id="page1">
-					<table class="sort" align="center">
-							<thead>
-								<tr>
-									<td>Сидбокс
-										<br>Seedbox1</td>
-									<td>Хранилище, ГБ
-										<br>Storage, GB</td>               
-							</thead>
-							<tbody>
-								<tr>
-									<!-- Seedbox -->
-									<td>sonicseedbox.com</td>
-									<!-- Storage -->
-									<td>4</td>               
-								</tr>
-							</tbody>
-						</table>	
-			</div>
-			<div class="page" id="page2">
-					<table class="sort" align="center">
-							<thead>
-								<tr>
-									<td>Сидбокс
-										<br>Seedbox2</td>
-									<td>Хранилище, ГБ
-										<br>Storage, GB</td>               
-							</thead>
-							<tbody>
-								<tr>
-									<!-- Seedbox -->
-									<td>sonicseedbox.com</td>
-									<!-- Storage -->
-									<td>4</td>               
-								</tr>
-							</tbody>
-						</table>	
-			</div>		
+		<div class="page" id="page1" >страница 1 одностраничного сайта</div>
+		<div class="page" id="page2">страница 2 одностраничного сайта</div>		
 		</div>
-        
-    <div id="updated_at"></div>
-    
-      <script>
-          get_updated_at("updated_at");
-      </script>
-</body>
-
-</html>
