@@ -1,3 +1,29 @@
+.container{
+	font: 1em sans-serif;
+	width:600px;
+	min-height:500px;
+	margin:auto;
+	border:1px solid #000;
+	position: relative;
+	}
+	h1,h2,h3,h4,h5,h6 {margin: 0;}
+	.page{
+	width:600px;
+	height:430px;
+	position: absolute;
+	top:60px;
+	display: none;
+	background-color: #fff;
+	}
+	div:first-of-type{
+	display:block;
+	z-index: 1;
+	}
+	div:target{
+	display:block;
+	z-index: 2;
+	}
+
 <div class="container">
 		<h1>Одностраничный статичный сайт</h1>
 		<nav>
@@ -6,4 +32,4 @@
 		</nav>
 		<div class="page" id="page1" >страница 1 одностраничного сайта</div>
 		<div class="page" id="page2">страница 2 одностраничного сайта</div>		
-		</div>
+</div>
