@@ -2,70 +2,16 @@
  <head>
   <meta charset="utf-8">
   <title>nafanz</title>
-  <style type="text/css"> 
-	.container{
-	font: 1em sans-serif;
-	margin:auto;
-	position: relative;
-	}
-	h1,h2,h3,h4,h5,h6 {margin: 0;}
-	.page{
-	position: absolute;
-	display: none;
-	background-color: #fff;
-	}
-	div:first-of-type{
-	display:block;
-	z-index: 1;
-	}
-	div:target{
-	display:block;
-	z-index: 2;
-	}
+  <link rel="stylesheet" href="style1.css" />
  </style>
  </head>
  <body>
-<div class="container">
-		<h1>Одностраничный статичный сайт</h1>
-		<nav>
-		<a href="#">home</a>
-		<a href="#page1">link1</a>
-		<a href="#page2">link2</a>		
-		</nav>
-		<div class="page" id="page1">
-			<table align="center">
-				<thead>
-					<tr>
-						<td>Сидбокс</td>
-						<td>Хранилище</td>               
-				</thead>
-				<tbody>
-					<tr>
-						<!-- Seedbox -->
-						<td>sonicseedbox.com</td>
-						<!-- Storage -->
-						<td>4</td>               
-					</tr>
-				</tbody>
-			</table>	
-		</div>
-		<div class="page" id="page2">
-			<table align="center">
-				<thead>
-					<tr>
-						<td>2</td>
-						<td>2</td>               
-				</thead>
-				<tbody>
-					<tr>
-						<!-- Seedbox -->
-						<td>2</td>
-						<!-- Storage -->
-						<td>2</td>               
-					</tr>
-				</tbody>
-			</table>
-		</div>		
+<script src="spa.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet" type="text/css" />
+<main></main>
+<div class="button-group__navbar">
+  <button class="button-group__navbar__button" data-route="main">main</button>
+  <button class="button-group__navbar__button" data-route="some">some</button>
 </div>
 </body>
 </html>
