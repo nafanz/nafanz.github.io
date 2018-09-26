@@ -1,13 +1,166 @@
 <html>
- <head>
-  <link rel="stylesheet" href="style1.css" />
- </head>
- <body>
-<script src="spa.js"></script>
-<main></main>
-<div class="button-group__navbar">
-  <button class="button-group__navbar__button" data-route="main">main</button>
-  <button class="button-group__navbar__button" data-route="some">some</button>
+<head>
+    <link rel="stylesheet" href="style1.css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>UMI.CMS - разработка сайтов</title>
+</head>
+<body>
+    <script src="sorting.js"></script>
+<br>
+<p>Демо к статье <a href="http://umi-cms.spb.su/component/table-sortable/">Таблицы с сортировкой и фильтрацией</a></p>
+<p>Таблица с сортировкой и фильтрацией</p>
+<p>Клик по заголовку столбца таблицы меняет направление сортировки</p>
+
+<div class="pricelist" id="pricelist">
+	<table id="pricetable" class="table-autosort:2">
+		<colgroup>
+			<col class="name" class="name"></col>
+			<col ></col>
+			<col ></col>
+			<col ></col>
+			<col ></col>
+			<col ></col>
+			<col class="last_col "></col>
+		</colgroup>
+		<thead>
+			<tr>
+				<th class="top">Наименование</th>
+				<th class=" filterable sortable table-sortable:numeric">
+				Номер профиля</th>
+				<th class=" filterable sortable table-sortable:numeric">
+				Площадъ поперечного сечения стержня, мм2</th>
+				<th class=" filterable sortable table-sortable:numeric">
+				Теоретическая масса 1м, кг</th>
+				<th class=" sortable table-sortable:numeric">Длина</th>
+				<th class=" filterable sortable table-sortable:default">Производитель</th>
+				<th class=" filterable sortable table-sortable:default">ГОСТ</th>
+			</tr>
+			<tr class="filter_container">
+				<th class="top"></th>
+				<th><select onchange="Table.filter(this,this)">
+				<option value>Все</option>
+				</select></th>
+				<th><select onchange="Table.filter(this,this)">
+				<option value>Все</option>
+				</select></th>
+				<th><select onchange="Table.filter(this,this)">
+				<option value>Все</option>
+				</select></th>
+				<th></th>
+				<th><input onkeyup="Table.filter(this,this)" size="8" name="filter"></th>
+				<th><select onchange="Table.filter(this,this)">
+				<option value>Все</option>
+				</select></th>
+			</tr>
+		</thead>
+		<tr>
+			<td class="nowrap">Арматура Ø10 А1*ст3сп/пс*ГОСТ 5781*11,7 </td>
+			<td >10</td>
+			<td >0.79</td>
+			<td >0.62</td>
+			<td >11.7</td>
+			<td >Трубосталь</td>
+			<td >ГОСТ 5781</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø8 А3*А400С*ТУ 14-1-5473*11,7 </td>
+			<td >8</td>
+			<td >50.3</td>
+			<td >0.4</td>
+			<td >11.7</td>
+			<td >Трубосталь</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø10 А3*А500С*СТО АСЧМ 7-93/ТУ*11,7 </td>
+			<td >10</td>
+			<td >78.3</td>
+			<td >0.62</td>
+			<td >11.7</td>
+			<td >КСО</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø12 А3*А500С*СТО АСЧМ 7-93/ТУ*11,7 </td>
+			<td >12</td>
+			<td >113</td>
+			<td >0.89</td>
+			<td >11.7</td>
+			<td >ЛМЗ</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø12 А3*А500С*СТО АСЧМ 7-93/ТУ*11,7 </td>
+			<td >12</td>
+			<td >113</td>
+			<td >0.89</td>
+			<td >11.7</td>
+			<td >Импорт</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø14 А3*А500С*СТО АСЧМ 7-93/ТУ*11,7 </td>
+			<td >14</td>
+			<td >154</td>
+			<td >1.21</td>
+			<td >11.7</td>
+			<td >Некий текст</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø16 А3*А500С*СТО АСЧМ 7-93/ТУ*н/д </td>
+			<td >16</td>
+			<td >201</td>
+			<td >0</td>
+			<td >--</td>
+			<td >--</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø16 А3*А500С*СТО АСЧМ 7-93/ТУ*н/д </td>
+			<td >16</td>
+			<td >254</td>
+			<td >2</td>
+			<td >--</td>
+			<td >--</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<tr>
+			<td class="nowrap">Арматура Ø20 А3*А500С*СТО АСЧМ 7-93/ТУ*11,7 </td>
+			<td >20</td>
+			<td >314</td>
+			<td >2.47</td>
+			<td >11.7</td>
+			<td >--</td>
+			<td >СТО АСЧМ 7-93/ТУ</td>
+		</tr>
+		<thead>
+			<tr>
+				<th class="top">Наименование</th>
+				<th class=" filterable sortable table-sortable:numeric">
+				Номер профиля</th>
+				<th class=" filterable sortable table-sortable:numeric">
+				Площадъ поперечного сечения стержня, мм2</th>
+				<th class=" filterable sortable table-sortable:numeric">
+				Теоретическая масса 1м, кг</th>
+				<th class=" sortable table-sortable:numeric">Длина</th>
+				<th class=" sortable table-sortable:default">Производитель</th>
+				<th class=" filterable sortable table-sortable:default">ГОСТ</th>
+			</tr>
+		</thead>
+	</table>
 </div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
 </body>
 </html>
