@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
 window.addEvent('domready',function(){
 if($('pricelist')){
 var table = $('pricelist').getFirst('table');
