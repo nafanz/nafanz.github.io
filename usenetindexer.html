@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Seedbox</title>
+    <script>
+        function get_updated_at(div_id) {
+            var url = "https://api.github.com/repos/nafanz/nafanz.github.io";
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var repos = JSON.parse(xhr.responseText);
+                    document.getElementById(div_id).innerHTML = repos['updated_at'];
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</head>
+
+<body>
+    <script src="sorting.js"></script>
+    <table class="sort" align="center">
+        <thead>
+            <tr>
+                <td>Index Sites</td>
+                <td>Доступ
+                    <br>Access</td>               
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Index Sites -->
+                <td>6box.me</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>    
+            <tr>
+                <!-- Index Sites -->
+                <td>abnzb.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>althub.co.za</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>fastnzb.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>gingadaddy.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>miatrix.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>newztown.co.za</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzb-tortuga.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzb.su</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzbfinder.ws</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzbgeek.info</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzbhydra.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzbnoob.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>
+            <tr>
+                <!-- Index Sites -->
+                <td>nzbwolf.com</td>
+                <!-- Access -->
+                <td>Registration</td>               
+            </tr>            
+        </tbody>
+    </table>
+    
+    <div id="updated_at"></div>
+    
+      <script>
+          get_updated_at("updated_at");
+      </script>
+</body>
+
+</html>
