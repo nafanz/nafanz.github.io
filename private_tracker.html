@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Usenet Provider</title>
+    <script>
+        function get_updated_at(div_id) {
+            var url = "https://api.github.com/repos/nafanz/nafanz.github.io";
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var repos = JSON.parse(xhr.responseText);
+                    document.getElementById(div_id).innerHTML = repos['updated_at'];
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</head>
+
+<body>
+    <script src="sorting.js"></script>
+    <center>
+        <a href="https://nafanz.github.io/index.html">Index</a> |
+        <a href="https://nafanz.github.io/filesharing.html">File Sharing</a> |
+        <a href="https://nafanz.github.io/cloudstorage.html">Cloud Storage</a> |
+        <a href="https://nafanz.github.io/seedbox.html">Seedbox</a> |
+        <a href="https://nafanz.github.io/usenetprovider.html">Usenet Provider</a> |
+        <a href="https://nafanz.github.io/usenetindexer.html">Usenet Indexer</a>
+    </center>    
+    <table class="sort" align="center">
+        <thead>
+            <tr>
+                <td>Private Tracker</td>
+                <td>Access</td>               
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Private Tracker -->
+                <td><a href="https://avistaz.to">AvistaZ</a></td>
+                <!-- Access -->
+                <td>Open Signups, Invite</td>               
+            </tr>    
+            <tr>
+                <!-- Private Tracker -->
+                <td><a href="https://orpheus.network">Orpheus</a></td>
+                <!-- Access -->
+                <td>Interview, Invite</td>               
+            </tr>            
+            <tr>
+                <!-- Private Tracker -->
+                <td><a href="https://pte.nu">PolishTracker</a></td>
+                <!-- Access -->
+                <td>Invite</td>               
+            </tr>
+            <tr>
+                <!-- Private Tracker -->
+                <td><a href="https://redacted.ch">Redacted</a></td>
+                <!-- Access -->
+                <td>Interview, Invite</td>               
+            </tr>
+            <tr>
+                <!-- Private Tracker -->
+                <td><a href="https://waffles.ch">Waffles</a></td>
+                <!-- Access -->
+                <td>Invite</td>               
+            </tr>
+            <tr>
+                <!-- Private Tracker -->
+                <td><a href="https://xbtmusic.org">xbtmusic</a></td>
+                <!-- Access -->
+                <td>Invite</td>               
+            </tr>            
+        </tbody>
+    </table>
+    
+    <center>Last update
+    
+        <div id="updated_at"></div>
+        
+          <script>
+              get_updated_at("updated_at");
+          </script>
+        </center>
+</body>
+
+</html>
