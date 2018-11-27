@@ -1,50 +1,54 @@
 <html>
 
 <head>
+    <title>Usenet provider</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Usenet Provider</title>    
+    <link rel="import" href="menu.html" />
 </head>
 
 <body>
     <script src="sorting.js"></script>
     <script src="update.js"></script>
-    <center>
-        <a href="https://nafanz.github.io/index.html">Index</a> |
-        <a href="https://nafanz.github.io/filesharing.html">File Sharing</a> |
-        <a href="https://nafanz.github.io/cloudstorage.html">Cloud Storage</a> |
-        <a href="https://nafanz.github.io/seedbox.html">Seedbox</a> |
-        <a href="https://nafanz.github.io/usenetprovider.html">Usenet Provider</a> |
-        <a href="https://nafanz.github.io/usenetindexer.html">Usenet Indexer</a>
-    </center>    
+    <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#menu');
+        document.body.appendChild(content.cloneNode(true));
+    </script>
     <table class="sort" align="center">
         <thead>
             <tr>
-                <td>Provider</td>
-                <td>Quota, GB</td>               
+                <td>Usenet provider</td>
+                <td>Quota, GB</td>
         </thead>
         <tbody>
             <tr>
-                <!-- Provider -->
-                <td><a href="https://www.bulknews.eu">bulknews</a></td>
+                <!-- Usenet provider -->
+                <td>
+                    <a href="https://www.bulknews.eu">bulknews</a>
+                </td>
                 <!-- Quota -->
-                <td>10</td>               
-            </tr>    
-            <tr>
-                <!-- Provider -->
-                <td><a href="https://www.cheapnews.eu">cheapnews</a</td>
-                <!-- Quota -->
-                <td>20</td>               
+                <td>10</td>
             </tr>
             <tr>
-                <!-- Provider -->
-                <td><a href="https://usenet.farm">usenet.farm</a</td>
+                <!-- Usenet provider -->
+                <td>
+                    <a href="https://www.cheapnews.eu">cheapnews</a>
+                </td>
                 <!-- Quota -->
-                <td>10</td>               
-            </tr>            
+                <td>20</td>
+            </tr>
+            <tr>
+                <!-- Usenet provider -->
+                <td>
+                    <a href="https://usenet.farm">usenet.farm</a>
+                </td>
+                <!-- Quota -->
+                <td>10</td>
+            </tr>
         </tbody>
-    </table>    
-    <center>Last update    
-        <div id="updated_at"></div>        
+    </table>
+    <center>Last update
+        <div id="updated_at"></div>
         <script>
             update("updated_at");
         </script>

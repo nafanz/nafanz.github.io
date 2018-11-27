@@ -1,337 +1,433 @@
 <html>
 
 <head>
+    <title>Usenet indexer</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Usenet Indexer</title>    
+    <link rel="import" href="menu.html" />
 </head>
 
 <body>
     <script src="sorting.js"></script>
     <script src="update.js"></script>
-    <center>
-        <a href="https://nafanz.github.io/index.html">Index</a> |
-        <a href="https://nafanz.github.io/filesharing.html">File Sharing</a> |
-        <a href="https://nafanz.github.io/cloudstorage.html">Cloud Storage</a> |
-        <a href="https://nafanz.github.io/seedbox.html">Seedbox</a> |
-        <a href="https://nafanz.github.io/usenetprovider.html">Usenet Provider</a> |
-        <a href="https://nafanz.github.io/usenetindexer.html">Usenet Indexer</a>
-    </center>
+    <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#menu');
+        document.body.appendChild(content.cloneNode(true));
+    </script>
     <table class="sort" align="center">
         <thead>
             <tr>
-                <td>Index Sites</td>
-                <td>Code Base</td>
+                <td>Index sites</td>
+                <td>Code base</td>
                 <td>Registrations</td>
-                <td>Free Account Limits</td>             
+                <td>Free account limits</td>
         </thead>
         <tbody>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://6box.me">6box</a></td>
+                <td>
+                    <a href="https://6box.me">6box</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>No</td>            
+                <td>No</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://6box.me/spotweb">6box Spotweb</a></td>
+                <td>
+                    <a href="https://6box.me/spotweb">6box Spotweb</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://github.com/Spotweb/Spotweb">Spotweb</a></td>
+                <td>
+                    <a href="https://github.com/Spotweb/Spotweb">Spotweb</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>No</td>            
-            </tr>    
+                <td>No</td>
+            </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.abnzb.com">abNZB</a></td>
+                <td>
+                    <a href="https://www.abnzb.com">abNZB</a>
+                </td>
                 <!-- Code Base -->
                 <td>?</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>No</td>               
+                <td>No</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://althub.co.za">altHUB</a></td>
+                <td>
+                    <a href="https://althub.co.za">altHUB</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>14 day trial period</td>               
+                <td>14 day trial period</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://dognzb.cr">DOGnzb</a></td>
+                <td>
+                    <a href="https://dognzb.cr">DOGnzb</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>Lite Tier only for former "Lifetime" account holders: 50 NZBs, 50 API hits/day, No Watchlist feature</td>               
+                <td>Lite Tier only for former "Lifetime" account holders: 50 NZBs, 50 API hits/day, No Watchlist feature</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://drunkenslug.com">DrunkenSlug</a></td>
+                <td>
+                    <a href="https://drunkenslug.com">DrunkenSlug</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://nzedb.github.io">nZEDb</a></td>
+                <td>
+                    <a href="https://nzedb.github.io">nZEDb</a>
+                </td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>5 NZBs, 100 API hits</td>               
+                <td>5 NZBs, 100 API hits</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://fastnzb.com">fastNZB</a></td>
+                <td>
+                    <a href="https://fastnzb.com">fastNZB</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://nzedb.github.io">nZEDb</a></td>
+                <td>
+                    <a href="https://nzedb.github.io">nZEDb</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>No</td>               
+                <td>No</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.gingadaddy.com">GingaDADDY</a></td>
+                <td>
+                    <a href="https://www.gingadaddy.com">GingaDADDY</a>
+                </td>
                 <!-- Code Base -->
                 <td>Custom</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>3 downloads/day, no XXX</td>               
+                <td>3 downloads/day, no XXX</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://lulunzb.com">LuluNZB</a></td>
+                <td>
+                    <a href="https://lulunzb.com">LuluNZB</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://nzedb.github.io">nZEDb</a></td>
+                <td>
+                    <a href="https://nzedb.github.io">nZEDb</a>
+                </td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>5 NZBs, 5 API hits/day</td>               
+                <td>5 NZBs, 5 API hits/day</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.miatrix.com">Miatrix</a></td>
+                <td>
+                    <a href="https://www.miatrix.com">Miatrix</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>2 NZBs, 10 API hits/day</td>               
+                <td>2 NZBs, 10 API hits/day</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://newz69.keagaming.com">newz69</a></td>
+                <td>
+                    <a href="https://newz69.keagaming.com">newz69</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>-</td>               
+                <td>-</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://newzleech.com">NewzLeech</a></td>
+                <td>
+                    <a href="https://newzleech.com">NewzLeech</a>
+                </td>
                 <!-- Code Base -->
                 <td>Search Engine</td>
                 <!-- Registrations -->
                 <td>-</td>
                 <!-- Free Account Limits -->
-                <td>-</td>               
+                <td>-</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://newztown.co.za">NewzTown</a></td>
+                <td>
+                    <a href="https://newztown.co.za">NewzTown</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>?</td>               
+                <td>?</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.nzb-tortuga.com">NZB-Tortuga</a></td>
+                <td>
+                    <a href="https://www.nzb-tortuga.com">NZB-Tortuga</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>7 day trial period</td>               
+                <td>7 day trial period</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://nzb.su">NZB.su</a></td>
+                <td>
+                    <a href="https://nzb.su">NZB.su</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>5 NZBs, 0 API hits/day</td>               
+                <td>5 NZBs, 0 API hits/day</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://nzbfinder.ws">NZBFinder</a></td>
+                <td>
+                    <a href="https://nzbfinder.ws">NZBFinder</a>
+                </td>
                 <!-- Code Base -->
                 <td>?</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>5 NZBs, 25 API hits</td>               
+                <td>5 NZBs, 25 API hits</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="http://nzbfriends.com"></a>NZBFriends</td>
+                <td>
+                    <a href="http://nzbfriends.com"></a>NZBFriends</td>
                 <!-- Code Base -->
                 <td>Search Engine</td>
                 <!-- Registrations -->
                 <td>-</td>
                 <!-- Free Account Limits -->
-                <td>-</td>               
+                <td>-</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://nzbgeek.info">NZBgeek</a></td>
+                <td>
+                    <a href="https://nzbgeek.info">NZBgeek</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>14 day trial period</td>               
+                <td>14 day trial period</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.nzbgrabit.xyz">NZBGrabit</a></td>
+                <td>
+                    <a href="https://www.nzbgrabit.xyz">NZBGrabit</a>
+                </td>
                 <!-- Code Base -->
                 <td>Forum</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>?</td>               
+                <td>?</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://nzbhydra.com">nzbhydra</a></td>
+                <td>
+                    <a href="https://nzbhydra.com">nzbhydra</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://github.com/theotherp/nzbhydra">nzbhydra</a></td>
+                <td>
+                    <a href="https://github.com/theotherp/nzbhydra">nzbhydra</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>?</td>               
+                <td>?</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.nzbnoob.com">NzbNooB</a></td>
+                <td>
+                    <a href="https://www.nzbnoob.com">NzbNooB</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>5 downloads, 100 api hits/day</td>               
+                <td>5 downloads, 100 api hits/day</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://nzbplanet.net">nzbplanet</a></td>
+                <td>
+                    <a href="https://nzbplanet.net">nzbplanet</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>Reduced retention, no access to VIP NZBs, No API access</td>               
+                <td>Reduced retention, no access to VIP NZBs, No API access</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://nzbwolf.com">nzbwolf</a></td>
+                <td>
+                    <a href="https://nzbwolf.com">nzbwolf</a>
+                </td>
                 <!-- Code Base -->
                 <td>Custom</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>1 week trail on request</td>               
+                <td>1 week trail on request</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://pfmonkey.com">PFMonkey</a></td>
+                <td>
+                    <a href="https://pfmonkey.com">PFMonkey</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="http://www.newznab.com">Newznab</a></td>
+                <td>
+                    <a href="http://www.newznab.com">Newznab</a>
+                </td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>10 downloads, 0 API hits/day, account might get deleted if inactive</td>               
+                <td>10 downloads, 0 API hits/day, account might get deleted if inactive</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://simplynzbs.com">SimplyNZBs</a></td>
+                <td>
+                    <a href="https://simplynzbs.com">SimplyNZBs</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://nzedb.github.io">nZEDb</a></td>
+                <td>
+                    <a href="https://nzedb.github.io">nZEDb</a>
+                </td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>5 NZBs, 10 API hits/day</td>               
+                <td>5 NZBs, 10 API hits/day</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://www.tabula-rasa.pw">Tabula Rasa</a></td>
+                <td>
+                    <a href="https://www.tabula-rasa.pw">Tabula Rasa</a>
+                </td>
                 <!-- Code Base -->
-                <td><a href="https://github.com/NNTmux/newznab-tmux">NNTmux</a></td>
+                <td>
+                    <a href="https://github.com/NNTmux/newznab-tmux">NNTmux</a>
+                </td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>10 NZBs, 100 API hits/day</td>               
+                <td>10 NZBs, 100 API hits/day</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="http://the-hive.be/forum">The Hive</a></td>
+                <td>
+                    <a href="http://the-hive.be/forum">The Hive</a>
+                </td>
                 <!-- Code Base -->
                 <td>Forum</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>-</td>               
+                <td>-</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="https://usenet-4all.pw">usenet-4all</a></td>
+                <td>
+                    <a href="https://usenet-4all.pw">usenet-4all</a>
+                </td>
                 <!-- Code Base -->
                 <td>?</td>
                 <!-- Registrations -->
                 <td>Invite</td>
                 <!-- Free Account Limits -->
-                <td>?</td>               
+                <td>?</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="http://www.usenet-crawler.com">Usenet Crawler</a></td>
+                <td>
+                    <a href="http://www.usenet-crawler.com">Usenet Crawler</a>
+                </td>
                 <!-- Code Base -->
                 <td>?</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>?</td>               
+                <td>?</td>
             </tr>
             <tr>
                 <!-- Index Sites -->
-                <td><a href="http://usenethub.com">UsenetHub</a></td>
+                <td>
+                    <a href="http://usenethub.com">UsenetHub</a>
+                </td>
                 <!-- Code Base -->
                 <td>?</td>
                 <!-- Registrations -->
                 <td>Open</td>
                 <!-- Free Account Limits -->
-                <td>?</td>               
-            </tr>            
+                <td>?</td>
+            </tr>
         </tbody>
     </table>
-    <center>Last update    
-        <div id="updated_at"></div>        
+    <center>Last update
+        <div id="updated_at"></div>
         <script>
             update("updated_at");
         </script>
     </center>
 </body>
+
 </html>

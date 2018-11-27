@@ -1,83 +1,98 @@
 <html>
 
 <head>
+    <title>Seedbox</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Seedbox</title>    
+    <link rel="import" href="menu.html" />
 </head>
 
 <body>
     <script src="sorting.js"></script>
     <script src="update.js"></script>
-    <center>
-        <a href="https://nafanz.github.io/index.html">Index</a> |
-        <a href="https://nafanz.github.io/filesharing.html">File Sharing</a> |
-        <a href="https://nafanz.github.io/cloudstorage.html">Cloud Storage</a> |
-        <a href="https://nafanz.github.io/seedbox.html">Seedbox</a> |
-        <a href="https://nafanz.github.io/usenetprovider.html">Usenet Provider</a> |
-        <a href="https://nafanz.github.io/usenetindexer.html">Usenet Indexer</a>
-    </center>    
+    <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#menu');
+        document.body.appendChild(content.cloneNode(true));
+    </script>
     <table class="sort" align="center">
         <thead>
             <tr>
                 <td>Seedbox</td>
-                <td>Storage, GB</td>               
+                <td>Storage, GB</td>
         </thead>
         <tbody>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="https://bitport.io">Bitport</a></td>
+                <td>
+                    <a href="https://bitport.io">Bitport</a>
+                </td>
                 <!-- Storage -->
-                <td>1</td>               
+                <td>1</td>
             </tr>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="http://bitso24.com">Bitso.ir</a></td>
+                <td>
+                    <a href="http://bitso24.com">Bitso.ir</a>
+                </td>
                 <!-- Storage -->
-                <td>1</td>               
+                <td>1</td>
             </tr>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="https://bytebx.com">ByteBX</a></td>
+                <td>
+                    <a href="https://bytebx.com">ByteBX</a>
+                </td>
                 <!-- Storage -->
-                <td>2,5</td>               
-            </tr>                        
-            <tr>
-                <!-- Seedbox -->
-                <td><a href="https://www.furk.net">Furk</a></td>
-                <!-- Storage -->
-                <td>5</td>               
+                <td>2,5</td>
             </tr>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="http://megabox.me">MegaBox</a></td>
+                <td>
+                    <a href="https://www.furk.net">Furk</a>
+                </td>
                 <!-- Storage -->
-                <td>1</td>               
+                <td>5</td>
             </tr>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="https://www.seedr.cc">Seedr</a></td>
+                <td>
+                    <a href="http://megabox.me">MegaBox</a>
+                </td>
                 <!-- Storage -->
-                <td>2</td>               
-            </tr>    
+                <td>1</td>
+            </tr>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="https://sonicseedbox.com">sonic.SeedBox</a></td>
+                <td>
+                    <a href="https://www.seedr.cc">Seedr</a>
+                </td>
                 <!-- Storage -->
-                <td>4</td>               
-            </tr>         
+                <td>2</td>
+            </tr>
             <tr>
                 <!-- Seedbox -->
-                <td><a href="https://zbigz.com">ZbigZ</a></td>
+                <td>
+                    <a href="https://sonicseedbox.com">sonic.SeedBox</a>
+                </td>
                 <!-- Storage -->
-                <td>1</td>               
-            </tr>                        
+                <td>4</td>
+            </tr>
+            <tr>
+                <!-- Seedbox -->
+                <td>
+                    <a href="https://zbigz.com">ZbigZ</a>
+                </td>
+                <!-- Storage -->
+                <td>1</td>
+            </tr>
         </tbody>
     </table>
-    <center>Last update    
-        <div id="updated_at"></div>        
+    <center>Last update
+        <div id="updated_at"></div>
         <script>
             update("updated_at");
         </script>
     </center>
 </body>
+
 </html>

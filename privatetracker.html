@@ -1,71 +1,82 @@
 <html>
 
 <head>
+    <title>Usenet provider</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Usenet Provider</title>    
+    <link rel="import" href="menu.html" />
 </head>
 
 <body>
     <script src="sorting.js"></script>
     <script src="update.js"></script>
-    <center>
-        <a href="https://nafanz.github.io/index.html">Index</a> |
-        <a href="https://nafanz.github.io/filesharing.html">File Sharing</a> |
-        <a href="https://nafanz.github.io/cloudstorage.html">Cloud Storage</a> |
-        <a href="https://nafanz.github.io/seedbox.html">Seedbox</a> |
-        <a href="https://nafanz.github.io/usenetprovider.html">Usenet Provider</a> |
-        <a href="https://nafanz.github.io/usenetindexer.html">Usenet Indexer</a>
-    </center>    
+    <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#menu');
+        document.body.appendChild(content.cloneNode(true));
+    </script>
     <table class="sort" align="center">
         <thead>
             <tr>
-                <td>Private Tracker</td>
-                <td>Access</td>               
+                <td>Private tracker</td>
+                <td>Access</td>
         </thead>
         <tbody>
             <tr>
                 <!-- Private Tracker -->
-                <td><a href="https://avistaz.to">AvistaZ</a></td>
+                <td>
+                    <a href="https://avistaz.to">AvistaZ</a>
+                </td>
                 <!-- Access -->
-                <td>Open Signups, Invite</td>               
-            </tr>    
-            <tr>
-                <!-- Private Tracker -->
-                <td><a href="https://orpheus.network">Orpheus</a></td>
-                <!-- Access -->
-                <td>Interview, Invite</td>               
-            </tr>            
-            <tr>
-                <!-- Private Tracker -->
-                <td><a href="https://pte.nu">PolishTracker</a></td>
-                <!-- Access -->
-                <td>Invite</td>               
+                <td>Open Signups, Invite</td>
             </tr>
             <tr>
                 <!-- Private Tracker -->
-                <td><a href="https://redacted.ch">Redacted</a></td>
+                <td>
+                    <a href="https://orpheus.network">Orpheus</a>
+                </td>
                 <!-- Access -->
-                <td>Interview, Invite</td>               
+                <td>Interview, Invite</td>
             </tr>
             <tr>
                 <!-- Private Tracker -->
-                <td><a href="https://waffles.ch">Waffles</a></td>
+                <td>
+                    <a href="https://pte.nu">PolishTracker</a>
+                </td>
                 <!-- Access -->
-                <td>Invite</td>               
+                <td>Invite</td>
             </tr>
             <tr>
                 <!-- Private Tracker -->
-                <td><a href="https://xbtmusic.org">xbtmusic</a></td>
+                <td>
+                    <a href="https://redacted.ch">Redacted</a>
+                </td>
                 <!-- Access -->
-                <td>Invite</td>               
-            </tr>            
+                <td>Interview, Invite</td>
+            </tr>
+            <tr>
+                <!-- Private Tracker -->
+                <td>
+                    <a href="https://waffles.ch">Waffles</a>
+                </td>
+                <!-- Access -->
+                <td>Invite</td>
+            </tr>
+            <tr>
+                <!-- Private Tracker -->
+                <td>
+                    <a href="https://xbtmusic.org">xbtmusic</a>
+                </td>
+                <!-- Access -->
+                <td>Invite</td>
+            </tr>
         </tbody>
     </table>
-    <center>Last update    
-        <div id="updated_at"></div>        
+    <center>Last update
+        <div id="updated_at"></div>
         <script>
             update("updated_at");
         </script>
     </center>
 </body>
+
 </html>
