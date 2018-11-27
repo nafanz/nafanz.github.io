@@ -2,25 +2,12 @@
 
 <head>
     <link rel="stylesheet" href="style.css" />
-    <title>Usenet Indexer</title>
-    <script>
-        function get_updated_at(div_id) {
-            var url = "https://api.github.com/repos/nafanz/nafanz.github.io";
-            var xhr = new XMLHttpRequest();
-            xhr.open('GET', url, true);
-            xhr.onreadystatechange = function() {
-                if (xhr.readyState == 4 && xhr.status == 200) {
-                    var repos = JSON.parse(xhr.responseText);
-                    document.getElementById(div_id).innerHTML = repos['updated_at'];
-                }
-            };
-            xhr.send();
-        }
-    </script>
+    <title>Usenet Indexer</title>    
 </head>
 
 <body>
     <script src="sorting.js"></script>
+    <script src="update.js"></script>
     <center>
         <a href="https://nafanz.github.io/index.html">Index</a> |
         <a href="https://nafanz.github.io/filesharing.html">File Sharing</a> |
@@ -340,15 +327,11 @@
             </tr>            
         </tbody>
     </table>
-
-    <center>Last update
-    
-    <div id="updated_at"></div>
-    
-      <script>
-          get_updated_at("updated_at");
-      </script>
+    <center>Last update    
+        <div id="updated_at"></div>        
+        <script>
+            update("updated_at");
+        </script>
     </center>
 </body>
-
 </html>
