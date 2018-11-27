@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="menu.html" />
+    <title>Index</title>
+</head>
+
+<body>
+    <script>
+        var link = document.querySelector('link[rel=import]');
+        var content = link.import.querySelector('#menu');
+        document.body.appendChild(content.cloneNode(true));
+    </script>
+</body>
+
+</html>
