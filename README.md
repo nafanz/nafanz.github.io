@@ -2,7 +2,7 @@
 * [File sharing](https://nafanz.github.io/filesharing.html)
 * [Cloud storage](https://nafanz.github.io/cloudstorage.html)
 
-### Torrent tracker
+### Torrent tracker & seedbox
 * [Public](https://nafanz.github.io/publictracker.html)
 * [Private](https://nafanz.github.io/privatetracker.html)
 * [Seedbox](https://nafanz.github.io/seedbox.html)
