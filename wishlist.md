@@ -19,9 +19,10 @@
     * Lady Wonder (2018)
 * Giuliano Gabriele 
     * Melodeonia (2013) [discogs](https://www.discogs.com/ru/Giuliano-Gabriele-Melodeonia/release/8500219)
+* Freedom Café
+    * Mantras De Medicina (2019) [bandcamp](https://freedomcaf.bandcamp.com/releases)
 * Spiritual Seasons 
-    * Metal Age (2017) [kroogi](http://spiritual-seasons.kroogi.com/ru/download/3284802-Metal-Age.html)
-    * Medieval Time (2019)
+    * Metal Age (2017) [kroogi](http://spiritual-seasons.kroogi.com/ru/download/3284802-Metal-Age.html)    
 * Stockmen 
     * Rattlesnakin Boogie (1999)
     * Mayhem Train (2000)
