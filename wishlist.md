@@ -20,8 +20,6 @@
     * Mantras De Medicina (2019) [bandcamp](https://freedomcaf.bandcamp.com/releases)
 * Giuliano Gabriele 
     * Melodeonia (2013) [discogs](https://www.discogs.com/ru/Giuliano-Gabriele-Melodeonia/release/8500219)
-* Red Hot Chilli Pipers
-    * Fresh Air (2019) [website](https://rhcp.scot/product/fresh-air/)
 * Spiritual Seasons 
     * Metal Age (2017) [kroogi](http://spiritual-seasons.kroogi.com/ru/download/3284802-Metal-Age.html)    
 * Stockmen 
