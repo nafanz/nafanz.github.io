@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Spreadsheet</title>
+</head>
+
+<body>
+<link rel="stylesheet" type="text/css" href="jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" charset="utf8" src="jquery.dataTables.js"></script>
+
+<script>
+    $(document).ready( function () {
+    const options = {
+        ajax: {
+            url: 'spreadsheet.json',
+            dataSrc: 'spreadsheet'
+        },
+        columns: [
+            { data: 'Name' },
+            { data: 'Type' },
+            { data: 'Free volume' },
+            { data: 'Shelf life' },
+            { data: 'Download count' },
+            { data: 'Language' },
+            { data: 'Application' }
+        ]
+        };
+    const table = $('#spreadsheet').DataTable(options);
+} );
+</script>
+
+<table id="spreadsheet" class="display">
+    <thead>
+    <tr>
+        <td>Name</td>
+        <td>Type</td>
+        <td>Free volume</td>
+        <td>Shelf life</td>
+        <td>Download count</td>
+        <td>Language</td>
+        <td>Application</td>
+    </tr>
+    </thead>
+</table>
+
+</html>

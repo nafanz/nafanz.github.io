@@ -1,0 +1,454 @@
+{
+  "spreadsheet": [
+    {
+      "Name": "<a href=\"https://allwaycloud.com\">Allway Cloud</a>",
+      "Type": "Cloud storage",
+      "Free volume": "1",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://www.zoolz.com/bigmind\">BigMIND</a>",
+      "Type": "Cloud storage",
+      "Free volume": "10",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://www.box.com\">Box</a>",
+      "Type": "Cloud storage",
+      "Free volume": "10",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"http://chomikuj.pl\">Chomikuj.pl</a>",
+      "Type": "Cloud storage",
+      "Free volume": "No limit",
+      "Shelf life": "-",
+      "Download count": "No",
+      "Language": "Polish",
+      "Application": "Windows, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://cozy.io\">Cozy Cloud</a>",
+      "Type": "Cloud storage",
+      "Free volume": "5",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://www.dropbox.com\">Dropbox</a>",
+      "Type": "Cloud storage",
+      "Free volume": "2",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://vault.elephantdrive.com\">ElephantDrive</a>",
+      "Type": "Cloud storage",
+      "Free volume": "2",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"http://ge.tt\">Ge.tt</a>",
+      "Type": "Cloud storage",
+      "Free volume": "2",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "Windows, Linux, MacOS"
+    },
+    {
+      "Name": "<a href=\"https://drive.google.com\">Google Drive</a>",
+      "Type": "Cloud storage",
+      "Free volume": "15",
+      "Shelf life": "-",
+      "Download count": "No",
+      "Language": "English, Russian",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://classic.hidrive.com\">HiDrive</a>",
+      "Type": "Cloud storage",
+      "Free volume": "5",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://jumpshare.com\">Jumpshare</a>",
+      "Type": "Cloud storage",
+      "Free volume": "2",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "Windows, MacOS, iOS"
+    },
+    {
+      "Name": "<a href=\"https://www.mediafire.com\">MediaFire</a>",
+      "Type": "Cloud storage",
+      "Free volume": "10",
+      "Shelf life": "-",
+      "Download count": "No",
+      "Language": "English",
+      "Application": "Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://mega.nz\">MEGA</a>",
+      "Type": "Cloud storage",
+      "Free volume": "15",
+      "Shelf life": "-",
+      "Download count": "No",
+      "Language": "English, Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://onedrive.live.com\">OneDrive</a>",
+      "Type": "Cloud storage",
+      "Free volume": "5",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://www.opendrive.com\">OpenDrive</a>",
+      "Type": "Cloud storage",
+      "Free volume": "5",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://www.pcloud.com\">pCloud</a>",
+      "Type": "Cloud storage",
+      "Free volume": "10",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://www.sync.com\">Sync</a>",
+      "Type": "Cloud storage",
+      "Free volume": "5",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "Windows, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://disk.yandex.com\">Yandex.Disk</a>",
+      "Type": "Cloud storage",
+      "Free volume": "10",
+      "Shelf life": "-",
+      "Download count": "Yes",
+      "Language": "English, Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://cloud.mail.ru\">Облако Mail.ru</a>",
+      "Type": "Cloud storage",
+      "Free volume": "8",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "Russian",
+      "Application": "Windows, Linux, MacOS, Android, iOS"
+    },
+    {
+      "Name": "<a href=\"https://1fichier.com\">1fichier</a>",
+      "Type": "File sharing",
+      "Free volume": "300 GB",
+      "Shelf life": "15 +",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://anonfiles.com\">AnonFiles</a>",
+      "Type": "File sharing",
+      "Free volume": "20 GB",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://bayfiles.com\">BayFiles</a>",
+      "Type": "File sharing",
+      "Free volume": "20 GB",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://clicknupload.org\">Clicknupload</a>",
+      "Type": "File sharing",
+      "Free volume": "2 GB",
+      "Shelf life": "7 +",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://dailyuploads.net\">Dailyuploads</a>",
+      "Type": "File sharing",
+      "Free volume": "-",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://upload.disroot.org\">Disroot</a>",
+      "Type": "File sharing",
+      "Free volume": "1 GB",
+      "Shelf life": "30",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://dropmeafile.com\">DropMeAFile</a>",
+      "Type": "File sharing",
+      "Free volume": "-",
+      "Shelf life": "3",
+      "Download count": "No",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://dropmefiles.com\">DropMeFiles</a>",
+      "Type": "File sharing",
+      "Free volume": "50 GB",
+      "Shelf life": "14",
+      "Download count": "Yes",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://fex.net\">Fex</a>",
+      "Type": "File sharing",
+      "Free volume": "50 GB",
+      "Shelf life": "7",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://filecloud.me\">Filecloud</a>",
+      "Type": "File sharing",
+      "Free volume": "2 Gb",
+      "Shelf life": "7",
+      "Download count": "-",
+      "Language": "Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://fileconvoy.com\">FileConvoy</a>",
+      "Type": "File sharing",
+      "Free volume": "3 GB",
+      "Shelf life": "21",
+      "Download count": "No",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://file.karelia.ru\">FileKarelia</a>",
+      "Type": "File sharing",
+      "Free volume": "1 GB",
+      "Shelf life": "7 +",
+      "Download count": "No",
+      "Language": "Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://files.dp.ua\">files.dp.ua</a>",
+      "Type": "File sharing",
+      "Free volume": "50 GB",
+      "Shelf life": "90",
+      "Download count": "No",
+      "Language": "Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://filestore.com.ua\">FileStore</a>",
+      "Type": "File sharing",
+      "Free volume": "750 MB",
+      "Shelf life": "10 +",
+      "Download count": "No",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://framadrop.org\">Framadrop</a>",
+      "Type": "File sharing",
+      "Free volume": "500 MB",
+      "Shelf life": "1",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://dl.free.fr\">Free</a>",
+      "Type": "File sharing",
+      "Free volume": "1 GB",
+      "Shelf life": "30",
+      "Download count": "-",
+      "Language": "French",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://ge.tt\">ge.tt</a>",
+      "Type": "File sharing",
+      "Free volume": "250 MB",
+      "Shelf life": "30",
+      "Download count": "Yes",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://www.load.to\">Load</a>",
+      "Type": "File sharing",
+      "Free volume": "1 GB",
+      "Shelf life": "28 +",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://forumfiles.com\">ForumFiles</a>",
+      "Type": "File sharing",
+      "Free volume": "20 GB",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://my-files.ru\">My-Files</a>",
+      "Type": "File sharing",
+      "Free volume": "100 GB",
+      "Shelf life": "20 +",
+      "Download count": "Yes",
+      "Language": "English, Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://www.myairbridge.com\">MyAirBridge</a>",
+      "Type": "File sharing",
+      "Free volume": "20 GB",
+      "Shelf life": "2",
+      "Download count": "No",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://mystore.to\">mystore</a>",
+      "Type": "File sharing",
+      "Free volume": "500 MB",
+      "Shelf life": "-",
+      "Download count": "No",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://nippyspace.com\">NippySpace</a>",
+      "Type": "File sharing",
+      "Free volume": "200 MB",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://sendfile.su\">SendFile</a>",
+      "Type": "File sharing",
+      "Free volume": "600 MB",
+      "Shelf life": "25 +",
+      "Download count": "No",
+      "Language": "Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://send.tresorit.com\">Tresorit Send</a>",
+      "Type": "File sharing",
+      "Free volume": "5 GB",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://upload.run\">UploadRun</a>",
+      "Type": "File sharing",
+      "Free volume": "250 MB",
+      "Shelf life": "730",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://usersdrive.com\">UsersDrive</a>",
+      "Type": "File sharing",
+      "Free volume": "-",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://wetransfer.com\">WeTransfer</a>",
+      "Type": "File sharing",
+      "Free volume": "2 GB",
+      "Shelf life": "7",
+      "Download count": "No",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://yourfilestore.com\">YourFileStore</a>",
+      "Type": "File sharing",
+      "Free volume": "500 MB",
+      "Shelf life": "-",
+      "Download count": "-",
+      "Language": "English",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"http://zalil.su\">Zalil</a>",
+      "Type": "File sharing",
+      "Free volume": "100 MB",
+      "Shelf life": "30",
+      "Download count": "Yes",
+      "Language": "Russian",
+      "Application": "-"
+    },
+    {
+      "Name": "<a href=\"https://zippyshare.com\">Zippyshare</a>",
+      "Type": "File sharing",
+      "Free volume": "500 MB",
+      "Shelf life": "30 +",
+      "Download count": "No",
+      "Language": "English, Russian",
+      "Application": "-"
+    }
+  ]
+}
