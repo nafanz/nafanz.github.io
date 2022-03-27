@@ -1,16 +1,7 @@
 {
   "spreadsheet": [
     {
-      "Name": "<a href=\"https://allwaycloud.com\">Allway Cloud</a>",
-      "Type": "Cloud storage",
-      "Free volume": "1",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English",
-      "Application": "-"
-    },
-    {
-      "Name": "<a href=\"https://www.zoolz.com/bigmind\">BigMIND</a>",
+      "Name": "<a href=\"https://zoolz.com/bigmind\">BigMIND</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -19,7 +10,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://www.box.com\">Box</a>",
+      "Name": "<a href=\"https://box.com\">Box</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -46,7 +37,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://www.dropbox.com\">Dropbox</a>",
+      "Name": "<a href=\"https://dropbox.com\">Dropbox</a>",
       "Type": "Cloud storage",
       "Free volume": "2",
       "Shelf life": "-",
@@ -62,15 +53,6 @@
       "Download count": "-",
       "Language": "English, Russian",
       "Application": "Windows, Linux, MacOS, Android, iOS"
-    },
-    {
-      "Name": "<a href=\"http://ge.tt\">Ge.tt</a>",
-      "Type": "Cloud storage",
-      "Free volume": "2",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English",
-      "Application": "Windows, Linux, MacOS"
     },
     {
       "Name": "<a href=\"https://drive.google.com\">Google Drive</a>",
@@ -100,7 +82,7 @@
       "Application": "Windows, MacOS, iOS"
     },
     {
-      "Name": "<a href=\"https://www.mediafire.com\">MediaFire</a>",
+      "Name": "<a href=\"https://mediafire.com\">MediaFire</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -127,7 +109,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://www.opendrive.com\">OpenDrive</a>",
+      "Name": "<a href=\"https://opendrive.com\">OpenDrive</a>",
       "Type": "Cloud storage",
       "Free volume": "5",
       "Shelf life": "-",
@@ -136,7 +118,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://www.pcloud.com\">pCloud</a>",
+      "Name": "<a href=\"https://pcloud.com\">pCloud</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -145,7 +127,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://www.sync.com\">Sync</a>",
+      "Name": "<a href=\"https://sync.com\">Sync</a>",
       "Type": "Cloud storage",
       "Free volume": "5",
       "Shelf life": "-",
@@ -316,30 +298,12 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://ge.tt\">ge.tt</a>",
-      "Type": "File sharing",
-      "Free volume": "250 MB",
-      "Shelf life": "30",
-      "Download count": "Yes",
-      "Language": "English",
-      "Application": "-"
-    },
-    {
-      "Name": "<a href=\"https://www.load.to\">Load</a>",
+      "Name": "<a href=\"https://load.to\">Load</a>",
       "Type": "File sharing",
       "Free volume": "1 GB",
       "Shelf life": "28 +",
       "Download count": "-",
       "Language": "English",
-      "Application": "-"
-    },
-    {
-      "Name": "<a href=\"https://forumfiles.com\">ForumFiles</a>",
-      "Type": "File sharing",
-      "Free volume": "20 GB",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English, Russian",
       "Application": "-"
     },
     {
@@ -352,19 +316,10 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://www.myairbridge.com\">MyAirBridge</a>",
+      "Name": "<a href=\"https://myairbridge.com\">MyAirBridge</a>",
       "Type": "File sharing",
       "Free volume": "20 GB",
       "Shelf life": "2",
-      "Download count": "No",
-      "Language": "English",
-      "Application": "-"
-    },
-    {
-      "Name": "<a href=\"http://mystore.to\">mystore</a>",
-      "Type": "File sharing",
-      "Free volume": "500 MB",
-      "Shelf life": "-",
       "Download count": "No",
       "Language": "English",
       "Application": "-"
