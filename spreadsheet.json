@@ -1,16 +1,7 @@
 {
   "spreadsheet": [
     {
-      "Name": "<a href=\"https://zoolz.com/bigmind\">BigMIND</a>",
-      "Type": "Cloud storage",
-      "Free volume": "10",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English, Russian",
-      "Application": "Windows, MacOS, Android, iOS"
-    },
-    {
-      "Name": "<a href=\"https://box.com\">Box</a>",
+      "Name": "<a href='https://box.com'>Box</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -19,7 +10,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"http://chomikuj.pl\">Chomikuj.pl</a>",
+      "Name": "<a href='http://chomikuj.pl'>Chomikuj.pl</a>",
       "Type": "Cloud storage",
       "Free volume": "No limit",
       "Shelf life": "-",
@@ -28,7 +19,7 @@
       "Application": "Windows, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://cozy.io\">Cozy Cloud</a>",
+      "Name": "<a href='https://cozy.io'>Cozy Cloud</a>",
       "Type": "Cloud storage",
       "Free volume": "5",
       "Shelf life": "-",
@@ -37,7 +28,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://dropbox.com\">Dropbox</a>",
+      "Name": "<a href='https://vault.elephantdrive.com'>ElephantDrive</a>",
       "Type": "Cloud storage",
       "Free volume": "2",
       "Shelf life": "-",
@@ -46,16 +37,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://vault.elephantdrive.com\">ElephantDrive</a>",
-      "Type": "Cloud storage",
-      "Free volume": "2",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English, Russian",
-      "Application": "Windows, Linux, MacOS, Android, iOS"
-    },
-    {
-      "Name": "<a href=\"https://drive.google.com\">Google Drive</a>",
+      "Name": "<a href='https://drive.google.com'>Google Drive</a>",
       "Type": "Cloud storage",
       "Free volume": "15",
       "Shelf life": "-",
@@ -64,16 +46,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://classic.hidrive.com\">HiDrive</a>",
-      "Type": "Cloud storage",
-      "Free volume": "5",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English",
-      "Application": "Windows, MacOS, Android, iOS"
-    },
-    {
-      "Name": "<a href=\"https://jumpshare.com\">Jumpshare</a>",
+      "Name": "<a href='https://jumpshare.com'>Jumpshare</a>",
       "Type": "Cloud storage",
       "Free volume": "2",
       "Shelf life": "-",
@@ -82,7 +55,7 @@
       "Application": "Windows, MacOS, iOS"
     },
     {
-      "Name": "<a href=\"https://mediafire.com\">MediaFire</a>",
+      "Name": "<a href='https://mediafire.com'>MediaFire</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -91,7 +64,7 @@
       "Application": "Android, iOS"
     },
     {
-      "Name": "<a href=\"https://mega.nz\">MEGA</a>",
+      "Name": "<a href='https://mega.nz'>MEGA</a>",
       "Type": "Cloud storage",
       "Free volume": "15",
       "Shelf life": "-",
@@ -100,7 +73,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://onedrive.live.com\">OneDrive</a>",
+      "Name": "<a href='https://onedrive.live.com'>OneDrive</a>",
       "Type": "Cloud storage",
       "Free volume": "5",
       "Shelf life": "-",
@@ -109,7 +82,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://opendrive.com\">OpenDrive</a>",
+      "Name": "<a href='https://opendrive.com'>OpenDrive</a>",
       "Type": "Cloud storage",
       "Free volume": "5",
       "Shelf life": "-",
@@ -118,7 +91,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://pcloud.com\">pCloud</a>",
+      "Name": "<a href='https://pcloud.com'>pCloud</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -127,7 +100,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://sync.com\">Sync</a>",
+      "Name": "<a href='https://sync.com'>Sync</a>",
       "Type": "Cloud storage",
       "Free volume": "5",
       "Shelf life": "-",
@@ -136,7 +109,7 @@
       "Application": "Windows, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://disk.yandex.com\">Yandex.Disk</a>",
+      "Name": "<a href='https://disk.yandex.com'>Yandex.Disk</a>",
       "Type": "Cloud storage",
       "Free volume": "10",
       "Shelf life": "-",
@@ -145,7 +118,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://cloud.mail.ru\">Облако Mail.ru</a>",
+      "Name": "<a href='https://cloud.mail.ru'>Облако Mail.ru</a>",
       "Type": "Cloud storage",
       "Free volume": "8",
       "Shelf life": "-",
@@ -154,7 +127,7 @@
       "Application": "Windows, Linux, MacOS, Android, iOS"
     },
     {
-      "Name": "<a href=\"https://1fichier.com\">1fichier</a>",
+      "Name": "<a href='https://1fichier.com'>1fichier</a>",
       "Type": "File sharing",
       "Free volume": "300 GB",
       "Shelf life": "15 +",
@@ -163,7 +136,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://anonfiles.com\">AnonFiles</a>",
+      "Name": "<a href='https://anonfiles.com'>AnonFiles</a>",
       "Type": "File sharing",
       "Free volume": "20 GB",
       "Shelf life": "-",
@@ -172,7 +145,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://bayfiles.com\">BayFiles</a>",
+      "Name": "<a href='https://bayfiles.com'>BayFiles</a>",
       "Type": "File sharing",
       "Free volume": "20 GB",
       "Shelf life": "-",
@@ -181,7 +154,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://clicknupload.org\">Clicknupload</a>",
+      "Name": "<a href='https://clicknupload.org'>Clicknupload</a>",
       "Type": "File sharing",
       "Free volume": "2 GB",
       "Shelf life": "7 +",
@@ -190,7 +163,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://dailyuploads.net\">Dailyuploads</a>",
+      "Name": "<a href='https://dailyuploads.net'>Dailyuploads</a>",
       "Type": "File sharing",
       "Free volume": "-",
       "Shelf life": "-",
@@ -199,7 +172,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://upload.disroot.org\">Disroot</a>",
+      "Name": "<a href='https://upload.disroot.org'>Disroot</a>",
       "Type": "File sharing",
       "Free volume": "1 GB",
       "Shelf life": "30",
@@ -208,7 +181,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://dropmeafile.com\">DropMeAFile</a>",
+      "Name": "<a href='https://dropmeafile.com'>DropMeAFile</a>",
       "Type": "File sharing",
       "Free volume": "-",
       "Shelf life": "3",
@@ -217,7 +190,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://dropmefiles.com\">DropMeFiles</a>",
+      "Name": "<a href='https://dropmefiles.com'>DropMeFiles</a>",
       "Type": "File sharing",
       "Free volume": "50 GB",
       "Shelf life": "14",
@@ -226,7 +199,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://fex.net\">Fex</a>",
+      "Name": "<a href='https://fex.net'>Fex</a>",
       "Type": "File sharing",
       "Free volume": "50 GB",
       "Shelf life": "7",
@@ -235,7 +208,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://filecloud.me\">Filecloud</a>",
+      "Name": "<a href='https://filecloud.me'>Filecloud</a>",
       "Type": "File sharing",
       "Free volume": "2 Gb",
       "Shelf life": "7",
@@ -244,7 +217,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://fileconvoy.com\">FileConvoy</a>",
+      "Name": "<a href='http://fileconvoy.com'>FileConvoy</a>",
       "Type": "File sharing",
       "Free volume": "3 GB",
       "Shelf life": "21",
@@ -253,7 +226,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://file.karelia.ru\">FileKarelia</a>",
+      "Name": "<a href='http://file.karelia.ru'>FileKarelia</a>",
       "Type": "File sharing",
       "Free volume": "1 GB",
       "Shelf life": "7 +",
@@ -262,7 +235,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://files.dp.ua\">files.dp.ua</a>",
+      "Name": "<a href='http://files.dp.ua'>files.dp.ua</a>",
       "Type": "File sharing",
       "Free volume": "50 GB",
       "Shelf life": "90",
@@ -271,7 +244,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://filestore.com.ua\">FileStore</a>",
+      "Name": "<a href='http://filestore.com.ua'>FileStore</a>",
       "Type": "File sharing",
       "Free volume": "750 MB",
       "Shelf life": "10 +",
@@ -280,7 +253,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://framadrop.org\">Framadrop</a>",
+      "Name": "<a href='https://framadrop.org'>Framadrop</a>",
       "Type": "File sharing",
       "Free volume": "500 MB",
       "Shelf life": "1",
@@ -289,7 +262,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://dl.free.fr\">Free</a>",
+      "Name": "<a href='http://dl.free.fr'>Free</a>",
       "Type": "File sharing",
       "Free volume": "1 GB",
       "Shelf life": "30",
@@ -298,7 +271,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://load.to\">Load</a>",
+      "Name": "<a href='https://load.to'>Load</a>",
       "Type": "File sharing",
       "Free volume": "1 GB",
       "Shelf life": "28 +",
@@ -307,7 +280,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://my-files.ru\">My-Files</a>",
+      "Name": "<a href='https://my-files.ru'>My-Files</a>",
       "Type": "File sharing",
       "Free volume": "100 GB",
       "Shelf life": "20 +",
@@ -316,7 +289,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://myairbridge.com\">MyAirBridge</a>",
+      "Name": "<a href='https://myairbridge.com'>MyAirBridge</a>",
       "Type": "File sharing",
       "Free volume": "20 GB",
       "Shelf life": "2",
@@ -325,7 +298,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://nippyspace.com\">NippySpace</a>",
+      "Name": "<a href='https://nippyspace.com'>NippySpace</a>",
       "Type": "File sharing",
       "Free volume": "200 MB",
       "Shelf life": "-",
@@ -334,7 +307,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://sendfile.su\">SendFile</a>",
+      "Name": "<a href='http://sendfile.su'>SendFile</a>",
       "Type": "File sharing",
       "Free volume": "600 MB",
       "Shelf life": "25 +",
@@ -343,7 +316,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://send.tresorit.com\">Tresorit Send</a>",
+      "Name": "<a href='https://send.tresorit.com'>Tresorit Send</a>",
       "Type": "File sharing",
       "Free volume": "5 GB",
       "Shelf life": "-",
@@ -352,7 +325,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://upload.run\">UploadRun</a>",
+      "Name": "<a href='http://upload.run'>UploadRun</a>",
       "Type": "File sharing",
       "Free volume": "250 MB",
       "Shelf life": "730",
@@ -361,7 +334,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://usersdrive.com\">UsersDrive</a>",
+      "Name": "<a href='https://usersdrive.com'>UsersDrive</a>",
       "Type": "File sharing",
       "Free volume": "-",
       "Shelf life": "-",
@@ -370,7 +343,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"https://wetransfer.com\">WeTransfer</a>",
+      "Name": "<a href='https://wetransfer.com'>WeTransfer</a>",
       "Type": "File sharing",
       "Free volume": "2 GB",
       "Shelf life": "7",
@@ -379,7 +352,7 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://yourfilestore.com\">YourFileStore</a>",
+      "Name": "<a href='http://yourfilestore.com'>YourFileStore</a>",
       "Type": "File sharing",
       "Free volume": "500 MB",
       "Shelf life": "-",
@@ -388,21 +361,12 @@
       "Application": "-"
     },
     {
-      "Name": "<a href=\"http://zalil.su\">Zalil</a>",
+      "Name": "<a href='http://zalil.su'>Zalil</a>",
       "Type": "File sharing",
       "Free volume": "100 MB",
       "Shelf life": "30",
       "Download count": "Yes",
       "Language": "Russian",
-      "Application": "-"
-    },
-    {
-      "Name": "<a href=\"https://zippyshare.com\">Zippyshare</a>",
-      "Type": "File sharing",
-      "Free volume": "500 MB",
-      "Shelf life": "30 +",
-      "Download count": "No",
-      "Language": "English, Russian",
       "Application": "-"
     }
   ]
