@@ -5,9 +5,9 @@
 </head>
 
 <body>
-<link rel="stylesheet" type="text/css" href="jquery.dataTables.css">
-<script type="text/javascript" charset="utf8" src="jquery-3.2.1.min.js"></script>
-<script type="text/javascript" charset="utf8" src="jquery.dataTables.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.css"/>
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.js"></script>
 
 <script>
     $(document).ready( function () {
@@ -24,7 +24,8 @@
             { data: 'Download count' },
             { data: 'Language' },
             { data: 'Application' }
-        ]
+        ],
+        paging: false
         };
     const table = $('#spreadsheet').DataTable(options);
 } );
