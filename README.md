@@ -26,15 +26,15 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 * Make changes to the file `spreadsheet.json`, for example:
 
 ```
-    {
-      "Name": "<a href=\"https://www.dropbox.com\">Dropbox</a>",
-      "Type": "Cloud storage",
-      "Free volume": "2",
-      "Shelf life": "-",
-      "Download count": "-",
-      "Language": "English, Russian",
-      "Application": "Windows, Linux, MacOS, Android, iOS"
-    }
+{
+    "Name": "<a href='https://dropmefiles.com'>DropMeFiles</a>",
+    "Type": "File sharing",
+    "Free volume": "50 GB",
+    "Shelf life": "14",
+    "Download count": "Yes",
+    "Language": "English, Russian",
+    "Application": null
+}
 ```
 
 * Commit the changes and push
@@ -71,7 +71,3 @@ Pushing these changes to your GitHub repository.
 * Profit
 
 Keep track of the project and make new changes.
-
-### Contacts
-
-Email `nafanz@mail.ru` or Reddit `u/x4fs1j`
