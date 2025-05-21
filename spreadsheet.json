@@ -385,5 +385,14 @@
         "Download count": null,
         "Language": "English",
         "Application": null
+    },
+    {
+        "Name": "<a href='https://tempsend.com'>TempSend</a>",
+        "Type": "File sharing",
+        "Free volume": "2 GB",
+        "Shelf life": "365",
+        "Download count": null,
+        "Language": "English",
+        "Application": null
     }
 ]
