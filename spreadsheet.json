@@ -367,5 +367,14 @@
         "Download count": "Yes",
         "Language": "Russian",
         "Application": null
+    },
+    {
+        "Name": "<a href='https://pixeldrain.com'>Pixeldrain</a>",
+        "Type": "Cloud storage",
+        "Free volume": "6 GB",
+        "Shelf life": "120",
+        "Download count": null,
+        "Language": "English",
+        "Application": null
     }
 ]
