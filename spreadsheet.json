@@ -324,15 +324,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://upload.run'>UploadRun</a>",
-        "Type": "File sharing",
-        "Free volume": "250 MB",
-        "Shelf life": "730",
-        "Download count": null,
-        "Language": "English",
-        "Application": null
-    },
-    {
         "Name": "<a href='https://usersdrive.com'>UsersDrive</a>",
         "Type": "File sharing",
         "Free volume": null,
