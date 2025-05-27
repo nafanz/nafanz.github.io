@@ -360,15 +360,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://zalil.su'>Zalil</a>",
-        "Type": "File sharing",
-        "Free volume": "100 MB",
-        "Shelf life": "30",
-        "Download count": "Yes",
-        "Language": "Russian",
-        "Application": null
-    },
-    {
         "Name": "<a href='https://pixeldrain.com'>Pixeldrain</a>",
         "Type": "Cloud storage",
         "Free volume": "6 GB",
