@@ -297,15 +297,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://nippyspace.com'>NippySpace</a>",
-        "Type": "File sharing",
-        "Free volume": "200 MB",
-        "Shelf life": null,
-        "Download count": null,
-        "Language": "English",
-        "Application": null
-    },
-    {
         "Name": "<a href='http://sendfile.su'>SendFile</a>",
         "Type": "File sharing",
         "Free volume": "600 MB",
