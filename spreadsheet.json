@@ -13,7 +13,7 @@
         "Type": "Cloud storage",
         "Free volume": "No limit",
         "Shelf life": null,
-        "Download count": "No",
+        "Download count": false,
         "Language": "Polish",
         "Application": "Windows, Android, iOS"
     },
@@ -40,7 +40,7 @@
         "Type": "Cloud storage",
         "Free volume": "15",
         "Shelf life": null,
-        "Download count": "No",
+        "Download count": false,
         "Language": "English, Russian",
         "Application": "Windows, MacOS, Android, iOS"
     },
@@ -58,7 +58,7 @@
         "Type": "Cloud storage",
         "Free volume": "10",
         "Shelf life": null,
-        "Download count": "No",
+        "Download count": false,
         "Language": "English",
         "Application": "Android, iOS"
     },
@@ -67,7 +67,7 @@
         "Type": "Cloud storage",
         "Free volume": "15",
         "Shelf life": null,
-        "Download count": "No",
+        "Download count": false,
         "Language": "English, Russian",
         "Application": "Windows, Linux, MacOS, Android, iOS"
     },
@@ -112,7 +112,7 @@
         "Type": "Cloud storage",
         "Free volume": "10",
         "Shelf life": null,
-        "Download count": "Yes",
+        "Download count": true,
         "Language": "English, Russian",
         "Application": "Windows, Linux, MacOS, Android, iOS"
     },
@@ -184,7 +184,7 @@
         "Type": "File sharing",
         "Free volume": null,
         "Shelf life": "3",
-        "Download count": "No",
+        "Download count": false,
         "Language": "English",
         "Application": null
     },
@@ -193,7 +193,7 @@
         "Type": "File sharing",
         "Free volume": "50 GB",
         "Shelf life": "14",
-        "Download count": "Yes",
+        "Download count": true,
         "Language": "English, Russian",
         "Application": null
     },
@@ -220,7 +220,7 @@
         "Type": "File sharing",
         "Free volume": "3 GB",
         "Shelf life": "21",
-        "Download count": "No",
+        "Download count": false,
         "Language": "English",
         "Application": null
     },
@@ -229,7 +229,7 @@
         "Type": "File sharing",
         "Free volume": "1 GB",
         "Shelf life": "7 +",
-        "Download count": "No",
+        "Download count": false,
         "Language": "Russian",
         "Application": null
     },
@@ -238,7 +238,7 @@
         "Type": "File sharing",
         "Free volume": "50 GB",
         "Shelf life": "90",
-        "Download count": "No",
+        "Download count": false,
         "Language": "Russian",
         "Application": null
     },
@@ -247,7 +247,7 @@
         "Type": "File sharing",
         "Free volume": "750 MB",
         "Shelf life": "10 +",
-        "Download count": "No",
+        "Download count": false,
         "Language": "English, Russian",
         "Application": null
     },
@@ -283,7 +283,7 @@
         "Type": "File sharing",
         "Free volume": "100 GB",
         "Shelf life": "20 +",
-        "Download count": "Yes",
+        "Download count": true,
         "Language": "English, Russian",
         "Application": null
     },
@@ -292,7 +292,7 @@
         "Type": "File sharing",
         "Free volume": "20 GB",
         "Shelf life": "2",
-        "Download count": "No",
+        "Download count": false,
         "Language": "English",
         "Application": null
     },
@@ -301,7 +301,7 @@
         "Type": "File sharing",
         "Free volume": "600 MB",
         "Shelf life": "25 +",
-        "Download count": "No",
+        "Download count": false,
         "Language": "Russian",
         "Application": null
     },
@@ -328,7 +328,7 @@
         "Type": "File sharing",
         "Free volume": "2 GB",
         "Shelf life": "7",
-        "Download count": "No",
+        "Download count": false,
         "Language": "English",
         "Application": null
     },
