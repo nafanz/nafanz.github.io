@@ -135,15 +135,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://bayfiles.com'>BayFiles</a>",
-        "Type": "File sharing",
-        "Free volume": "20 GB",
-        "Shelf life": null,
-        "Download count": null,
-        "Language": "English, Russian",
-        "Application": null
-    },
-    {
         "Name": "<a href='https://clicknupload.org'>Clicknupload</a>",
         "Type": "File sharing",
         "Free volume": "2 GB",
