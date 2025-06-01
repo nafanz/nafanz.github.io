@@ -270,15 +270,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://load.to'>Load</a>",
-        "Type": "File sharing",
-        "Free volume": "1 GB",
-        "Shelf life": "28 +",
-        "Download count": null,
-        "Language": "English",
-        "Application": null
-    },
-    {
         "Name": "<a href='https://my-files.ru'>My-Files</a>",
         "Type": "File sharing",
         "Free volume": "100 GB",
