@@ -252,15 +252,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://my-files.ru'>My-Files</a>",
-        "Type": "File sharing",
-        "Free volume": "100 GB",
-        "Shelf life": "20 +",
-        "Download count": true,
-        "Language": "English, Russian",
-        "Application": null
-    },
-    {
         "Name": "<a href='https://myairbridge.com'>MyAirBridge</a>",
         "Type": "File sharing",
         "Free volume": "20 GB",
