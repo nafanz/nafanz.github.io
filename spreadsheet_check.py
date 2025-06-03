@@ -12,10 +12,6 @@ for item in spreadsheet:
         }
     )
 
-    match bucket.status_code:
-        case 200:
-            pass
-        case _:
-            print(bucket.url)
-            print(bucket.status_code)
-            print()
+    print(bucket.url)
+    print(bucket.status_code)
+    print()
