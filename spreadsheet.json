@@ -225,15 +225,6 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://filestore.com.ua'>FileStore</a>",
-        "Type": "File sharing",
-        "Free volume": "750 MB",
-        "Shelf life": "10 +",
-        "Download count": false,
-        "Language": "English, Russian",
-        "Application": null
-    },
-    {
         "Name": "<a href='https://framadrop.org'>Framadrop</a>",
         "Type": "File sharing",
         "Free volume": "500 MB",
