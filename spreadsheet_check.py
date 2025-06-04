@@ -1,6 +1,8 @@
+import json
 import requests
 
-spreadsheet = requests.get(url='https://nafanz.github.io/spreadsheet.json').json()
+with open('spreadsheet.json') as file:
+    spreadsheet = json.loads(file.read())
 
 for item in spreadsheet:
     name = item['Name'].split("'")[1]
