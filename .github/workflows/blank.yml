@@ -25,7 +25,7 @@ jobs:
       - name: Setup Python Version
         uses: actions/setup-python@v4
         with:
-          python-version: 3.12 # Install the python version needed
+          python-version: 3.13 # Install the python version needed
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
