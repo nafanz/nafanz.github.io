@@ -322,5 +322,32 @@
         "Download count": null,
         "Language": "English",
         "Application": null
+    },
+    {
+        "Name": "<a href='https://mobisystems.com/en-us/mobidrive'>MobiDrive</a>",
+        "Type": "Cloud storage",
+        "Free volume": "20 GB",
+        "Shelf life": null,
+        "Download count": null,
+        "Language": "English",
+        "Application": null
+    },
+    {
+        "Name": "<a href='https://www.terabox.com'>TeraBox</a>",
+        "Type": "Cloud storage",
+        "Free volume": "1 GB",
+        "Shelf life": null,
+        "Download count": null,
+        "Language": "English, Russian",
+        "Application": null
+    },
+    {
+        "Name": "<a href='https://cloudbeeline.ru'>CloudBeeline</a>",
+        "Type": "Cloud storage",
+        "Free volume": "10 GB",
+        "Shelf life": null,
+        "Download count": null,
+        "Language": "Russian",
+        "Application": null
     }
 ]
