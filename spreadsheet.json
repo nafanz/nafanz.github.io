@@ -198,7 +198,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://fileconvoy.com'>FileConvoy</a>",
+        "Name": "<a href='http://fileconvoy.com'>FileConvoy</a>",
         "Type": "File sharing",
         "Free volume": "3 GB",
         "Shelf life": "21",
@@ -207,7 +207,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://file.karelia.ru'>FileKarelia</a>",
+        "Name": "<a href='http://file.karelia.ru'>FileKarelia</a>",
         "Type": "File sharing",
         "Free volume": "1 GB",
         "Shelf life": "7 +",
@@ -234,7 +234,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://dl.free.fr'>Free</a>",
+        "Name": "<a href='https://transfert.free.fr'>Free</a>",
         "Type": "File sharing",
         "Free volume": "1 GB",
         "Shelf life": "30",
@@ -252,7 +252,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='https://sendfile.su'>SendFile</a>",
+        "Name": "<a href='http://sendfile.su'>SendFile</a>",
         "Type": "File sharing",
         "Free volume": "600 MB",
         "Shelf life": "25 +",
