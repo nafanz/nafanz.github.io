@@ -20,15 +20,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Setup Python Version
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
-          python-version: 3.13 # Install the python version needed
+          python-version: 3.13
 
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Execute Python script # Run the run.py to get the latest data
+      - name: Execute Python script
         run: python spreadsheet_check.py
