@@ -9,7 +9,7 @@
         "Application": "Windows, MacOS, Android, iOS"
     },
     {
-        "Name": "<a href='http://chomikuj.pl'>Chomikuj.pl</a>",
+        "Name": "<a href='https://chomikuj.pl'>Chomikuj.pl</a>",
         "Type": "Cloud storage",
         "Free volume": "No limit",
         "Shelf life": null,
@@ -198,7 +198,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://fileconvoy.com'>FileConvoy</a>",
+        "Name": "<a href='https://fileconvoy.com'>FileConvoy</a>",
         "Type": "File sharing",
         "Free volume": "3 GB",
         "Shelf life": "21",
@@ -207,7 +207,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://file.karelia.ru'>FileKarelia</a>",
+        "Name": "<a href='https://file.karelia.ru'>FileKarelia</a>",
         "Type": "File sharing",
         "Free volume": "1 GB",
         "Shelf life": "7 +",
@@ -216,7 +216,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://files.dp.ua'>files.dp.ua</a>",
+        "Name": "<a href='https://www.files.dp.ua'>files.dp.ua</a>",
         "Type": "File sharing",
         "Free volume": "50 GB",
         "Shelf life": "90",
@@ -234,7 +234,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://dl.free.fr'>Free</a>",
+        "Name": "<a href='https://dl.free.fr'>Free</a>",
         "Type": "File sharing",
         "Free volume": "1 GB",
         "Shelf life": "30",
@@ -252,7 +252,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://sendfile.su'>SendFile</a>",
+        "Name": "<a href='https://sendfile.su'>SendFile</a>",
         "Type": "File sharing",
         "Free volume": "600 MB",
         "Shelf life": "25 +",
@@ -288,7 +288,7 @@
         "Application": null
     },
     {
-        "Name": "<a href='http://yourfilestore.com'>YourFileStore</a>",
+        "Name": "<a href='https://yourfilestore.com'>YourFileStore</a>",
         "Type": "File sharing",
         "Free volume": "500 MB",
         "Shelf life": null,
@@ -348,6 +348,15 @@
         "Shelf life": null,
         "Download count": null,
         "Language": "Russian",
+        "Application": null
+    },
+    {
+        "Name": "<a href='https://murena.io'>Murena</a>",
+        "Type": "Cloud storage",
+        "Free volume": "1 GB",
+        "Shelf life": null,
+        "Download count": null,
+        "Language": "English",
         "Application": null
     }
 ]
