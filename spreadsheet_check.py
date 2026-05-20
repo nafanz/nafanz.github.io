@@ -1,6 +1,7 @@
 import json
 import socket
 import requests
+from urllib.parse import urlparse
 from requests.exceptions import SSLError, RequestException
 
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36'
@@ -13,7 +14,8 @@ for item in spreadsheet:
     print(name)
 
     try:
-        name_to_ip = socket.gethostbyname(name.split("//")[1])
+        # Получаем только hostname (mobisystems.com), scheme (https) и path (/en-us/mobidrive) нам не нужны
+        name_to_ip = socket.gethostbyname(urlparse(name).hostname)
         print(name_to_ip)
     except socket.gaierror as error:
         print(error)
