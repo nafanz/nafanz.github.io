@@ -37,6 +37,13 @@ Recommendations: [IntelliJ IDEA Community](https://www.jetbrains.com/idea/), [Vi
 }
 ```
 
+* Sort file by name
+
+```
+sudo apt install jq moreutils
+jq 'sort_by(.Name)' spreadsheet.json | sponge spreadsheet.json
+```
+
 * Commit the changes and push
 
 ```
