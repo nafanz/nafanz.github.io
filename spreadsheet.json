@@ -60,6 +60,16 @@
     "Application": "Windows, Android, iOS"
   },
   {
+    "Name": "<a href='https://cijoint.org'>cijoint.org</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": "200 MB",
+    "Shelf life": "60",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://clicknupload.org'>Clicknupload</a>",
     "Type": "File sharing",
     "Git": null,
@@ -150,11 +160,51 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://drop.nevers.fr'>drop.nevers.fr</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": null,
+    "Shelf life": "30",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://drop.picasoft.net'>drop.picasoft.net</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": "4 GB",
+    "Shelf life": "15",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://drop.sans-nuage.fr'>drop.sans-nuage.fr</a>",
     "Type": "File sharing",
     "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
     "Free volume": "1 GB",
     "Shelf life": "30",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://drop.siick.fr'>drop.siick.fr</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/kepon/file2link'>File2Link</a>",
+    "Free volume": "512 MB",
+    "Shelf life": "180",
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://drop.underworld.fr'>drop.underworld.fr</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": "2 GB",
+    "Shelf life": "7",
     "Download count": null,
     "Language": "English, Russian",
     "Application": null
@@ -190,6 +240,16 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://fichiers.ouvaton.coop'>fichiers.ouvaton.coop</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://gitlab.com/jirafeau/Jirafeau'>Jirafeau</a>",
+    "Free volume": "1 GB",
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://filecloud.me'>Filecloud</a>",
     "Type": "File sharing",
     "Git": null,
@@ -197,6 +257,16 @@
     "Shelf life": "7",
     "Download count": null,
     "Language": "Russian",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://fileupload.ggc-project.de'>fileupload.ggc-project.de</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/timvisee/send'>Firefox Send</a>",
+    "Free volume": "2 GB",
+    "Shelf life": 7,
+    "Download count": null,
+    "Language": "English",
     "Application": null
   },
   {
@@ -225,6 +295,16 @@
     "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
     "Free volume": "2 GB",
     "Shelf life": "7",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://lufi.s2s.video'>lufi.s2s.video</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": "1 GB",
+    "Shelf life": "1",
     "Download count": null,
     "Language": "English, Russian",
     "Application": null
@@ -310,6 +390,16 @@
     "Application": "Windows, Linux, MacOS, Android, iOS"
   },
   {
+    "Name": "<a href='https://pic.infini.fr'>pic.infini.fr</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lutim'>Lutim</a>",
+    "Free volume": null,
+    "Shelf life": "15",
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://pixeldrain.com'>Pixeldrain</a>",
     "Type": "Cloud storage",
     "Git": null,
@@ -320,11 +410,51 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://send.aurorabilisim.com'>send.aurorabilisim.com</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/timvisee/send'>Firefox Send</a>",
+    "Free volume": "2 GB",
+    "Shelf life": 7,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://send.mni.li'>send.mni.li</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/timvisee/send'>Firefox Send</a>",
+    "Free volume": "8 GB",
+    "Shelf life": 7,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://send.monks.tools'>send.monks.tools</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/timvisee/send'>Firefox Send</a>",
+    "Free volume": "5 GB",
+    "Shelf life": 7,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://send.tresorit.com'>Tresorit Send</a>",
     "Type": "File sharing",
     "Git": null,
     "Free volume": "5 GB",
     "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://send.vis.ee'>send.vis.ee</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/timvisee/send'>Firefox Send</a>",
+    "Free volume": "2 GB",
+    "Shelf life": 3,
     "Download count": null,
     "Language": "English",
     "Application": null
@@ -357,6 +487,16 @@
     "Shelf life": 7,
     "Download count": null,
     "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfert.facil.services'>transfert.facil.services</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": "100 MB",
+    "Shelf life": "60",
+    "Download count": null,
+    "Language": "English, Russian",
     "Application": null
   },
   {
