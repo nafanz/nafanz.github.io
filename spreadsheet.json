@@ -300,11 +300,31 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://lufi.fiat-tux.fr'>lufi.fiat-tux.fr</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
+    "Free volume": "100 MB",
+    "Shelf life": "3",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://lufi.s2s.video'>lufi.s2s.video</a>",
     "Type": "File sharing",
     "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
     "Free volume": "1 GB",
     "Shelf life": "1",
+    "Download count": null,
+    "Language": "English, Russian",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://lufin.hloth.dev'>lufin.hloth.dev</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://git.hloth.dev/hloth/lufin'>Lufin</a>",
+    "Free volume": null,
+    "Shelf life": null,
     "Download count": null,
     "Language": "English, Russian",
     "Application": null
@@ -546,6 +566,16 @@
     "Free volume": "2 GB",
     "Shelf life": "7",
     "Download count": false,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://wormhole.app'>wormhole.app</a>",
+    "Type": "File sharing",
+    "Git": null,
+    "Free volume": "10 GB",
+    "Shelf life": null,
+    "Download count": null,
     "Language": "English",
     "Application": null
   },
