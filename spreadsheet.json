@@ -490,11 +490,41 @@
     "Application": "Windows, MacOS, Android, iOS"
   },
   {
+    "Name": "<a href='https://temp.sh'>temp.sh</a>",
+    "Type": "File sharing",
+    "Git": null,
+    "Free volume": "4 GB",
+    "Shelf life": 3,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://tempsend.com'>TempSend</a>",
     "Type": "File sharing",
     "Git": null,
     "Free volume": "2 GB",
     "Shelf life": "365",
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://termbin.com'>termbin.com</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/solusipse/fiche'>fiche</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer.contina.pl'>transfer.contina.pl</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": "10 GB",
+    "Shelf life": 1,
     "Download count": null,
     "Language": "English",
     "Application": null
