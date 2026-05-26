@@ -20,6 +20,16 @@
     "Application": null
   },
   {
+    "Name": "<a href='http://medcloud-de-02.medsend.us'>medcloud-de-02.medsend.us</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": "10 GB",
+    "Shelf life": 14,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='http://sendfile.su'>SendFile</a>",
     "Type": "File sharing",
     "Git": null,
@@ -230,6 +240,16 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://dump.blackops.red'>dump.blackops.red</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": "5 GB",
+    "Shelf life": 14,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://fex.net'>Fex</a>",
     "Type": "File sharing",
     "Git": null,
@@ -245,6 +265,16 @@
     "Git": "<a href='https://gitlab.com/jirafeau/Jirafeau'>Jirafeau</a>",
     "Free volume": "1 GB",
     "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://file.blackops.blue'>file.blackops.blue</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": "5 GB",
+    "Shelf life": 14,
     "Download count": null,
     "Language": "English",
     "Application": null
@@ -520,11 +550,91 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://transfer-sh.bileto.com'>transfer-sh.bileto.com</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer-sh.bileto.zone'>transfer-sh.bileto.zone</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer-sh.fasioen.nl/'>transfer-sh.fasioen.nl</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer-sh.fly.dev'>transfer-sh.fly.dev</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer-sh.kubesnp.salt.id'>transfer-sh.kubesnp.salt.id</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer-sh.kurisudev.top'>transfer-sh.kurisudev.top</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer-sh.ttoile.com'>transfer-sh.ttoile.com</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://transfer.contina.pl'>transfer.contina.pl</a>",
     "Type": "File sharing",
     "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
     "Free volume": "10 GB",
     "Shelf life": 1,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://transfer.kometa.wiki'>transfer.kometa.wiki</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
+    "Free volume": null,
+    "Shelf life": 365,
     "Download count": null,
     "Language": "English",
     "Application": null
@@ -596,6 +706,16 @@
     "Free volume": "2 GB",
     "Shelf life": "7",
     "Download count": false,
+    "Language": "English",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://wgetz.com'>wgetz.com</a>",
+    "Type": "File sharing",
+    "Git": null,
+    "Free volume": null,
+    "Shelf life": null,
+    "Download count": null,
     "Language": "English",
     "Application": null
   },
