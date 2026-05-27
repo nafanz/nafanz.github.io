@@ -320,6 +320,16 @@
     "Application": null
   },
   {
+    "Name": "<a href='https://litterbox.catbox.moe'>litterbox.catbox.moe</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/nokonoko/uguu'>Uguu</a>",
+    "Free volume": "1 GB",
+    "Shelf life": 3,
+    "Download count": null,
+    "Language": "English",
+    "Application": null
+  },
+  {
     "Name": "<a href='https://lufi.ethibox.fr'>lufi.ethibox.fr</a>",
     "Type": "File sharing",
     "Git": "<a href='https://framagit.org/fiat-tux/hat-softwares/lufi'>Lufi</a>",
@@ -757,6 +767,16 @@
     "Shelf life": null,
     "Download count": null,
     "Language": "English, Russian",
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://x0.at'>x0.at</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/Rouji/single_php_filehost'>single_php_filehost</a>",
+    "Free volume": "1 GB",
+    "Shelf life": 3,
+    "Download count": null,
+    "Language": "English",
     "Application": null
   },
   {
