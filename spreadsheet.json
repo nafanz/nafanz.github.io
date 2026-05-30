@@ -8,14 +8,6 @@
     "Application": null
   },
   {
-    "Name": "<a href='http://fileconvoy.com'>FileConvoy</a>",
-    "Type": "File sharing",
-    "Git": null,
-    "Free volume": "3 GB",
-    "Shelf life": 21,
-    "Application": null
-  },
-  {
     "Name": "<a href='http://medcloud-de-02.medsend.us'>medcloud-de-02.medsend.us</a>",
     "Type": "File sharing",
     "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
