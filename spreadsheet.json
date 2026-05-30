@@ -428,7 +428,7 @@
     "Type": "Cloud storage",
     "Git": null,
     "Free volume": "6 GB",
-    "Shelf life": 120,
+    "Shelf life": 60,
     "Application": null
   },
   {
