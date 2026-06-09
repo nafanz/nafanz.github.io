@@ -16,14 +16,6 @@
     "Application": null
   },
   {
-    "Name": "<a href='http://sendfile.su'>SendFile</a>",
-    "Type": "File sharing",
-    "Git": null,
-    "Free volume": "600 MB",
-    "Shelf life": 25,
-    "Application": null
-  },
-  {
     "Name": "<a href='https://1fichier.com'>1fichier</a>",
     "Type": "File sharing",
     "Git": null,
@@ -90,7 +82,7 @@
   {
     "Name": "<a href='https://cozy.io'>Cozy Cloud</a>",
     "Type": "Cloud storage",
-    "Git": null,
+    "Git": "<a href='https://github.com/cozy/cozy-stack'>cozy-stack</a>",
     "Free volume": "5",
     "Shelf life": null,
     "Application": "Windows, Linux, MacOS, Android, iOS"
@@ -194,7 +186,7 @@
   {
     "Name": "<a href='https://dropmeafile.com'>DropMeAFile</a>",
     "Type": "File sharing",
-    "Git": null,
+    "Git": "<a href='https://github.com/ken107/dropmeafile.com'>dropmeafile.com</a>",
     "Free volume": null,
     "Shelf life": 3,
     "Application": null
@@ -242,7 +234,7 @@
   {
     "Name": "<a href='https://file.kiwi'>file.kiwi</a>",
     "Type": "File sharing",
-    "Git": null,
+    "Git": "<a href='https://github.com/file-kiwi'>file-kiwi</a>",
     "Free volume": null,
     "Shelf life": null,
     "Application": null
@@ -426,7 +418,7 @@
   {
     "Name": "<a href='https://pixeldrain.com'>Pixeldrain</a>",
     "Type": "Cloud storage",
-    "Git": null,
+    "Git": "<a href='https://github.com/Fornaxian/pixeldrain_web'>pixeldrain_web</a>",
     "Free volume": "6 GB",
     "Shelf life": 60,
     "Application": null
@@ -493,6 +485,14 @@
     "Git": "<a href='https://github.com/timvisee/send'>Firefox Send</a>",
     "Free volume": "2 GB",
     "Shelf life": 3,
+    "Application": null
+  },
+  {
+    "Name": "<a href='https://share-me.onokami.space'>share-me.onokami.space</a>",
+    "Type": "File sharing",
+    "Git": "<a href='https://github.com/onokashino/share-me'>share-me</a>",
+    "Free volume": "5 GB",
+    "Shelf life": null,
     "Application": null
   },
   {
@@ -698,7 +698,7 @@
   {
     "Name": "<a href='https://wormhole.app'>wormhole.app</a>",
     "Type": "File sharing",
-    "Git": null,
+    "Git": "<a href='https://github.com/magic-wormhole/magic-wormhole'>magic-wormhole</a>",
     "Free volume": "10 GB",
     "Shelf life": null,
     "Application": null
