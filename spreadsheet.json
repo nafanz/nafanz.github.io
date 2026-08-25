@@ -32,14 +32,6 @@
     "Application": "Windows, MacOS, Android, iOS"
   },
   {
-    "Name": "<a href='https://chibi.phantomsnetwork.org'>chibi.phantomsnetwork.org</a>",
-    "Type": "File sharing",
-    "Git": "<a href='https://github.com/chibisafe/chibisafe'>Chibisafe</a>",
-    "Free volume": "500 MB",
-    "Shelf life": 14,
-    "Application": null
-  },
-  {
     "Name": "<a href='https://chomikuj.pl'>Chomikuj.pl</a>",
     "Type": "Cloud storage",
     "Git": null,
@@ -560,23 +552,7 @@
     "Application": null
   },
   {
-    "Name": "<a href='https://transfer-sh.fly.dev'>transfer-sh.fly.dev</a>",
-    "Type": "File sharing",
-    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
-    "Free volume": null,
-    "Shelf life": null,
-    "Application": null
-  },
-  {
     "Name": "<a href='https://transfer-sh.kubesnp.salt.id'>transfer-sh.kubesnp.salt.id</a>",
-    "Type": "File sharing",
-    "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
-    "Free volume": null,
-    "Shelf life": null,
-    "Application": null
-  },
-  {
-    "Name": "<a href='https://transfer-sh.kurisudev.top'>transfer-sh.kurisudev.top</a>",
     "Type": "File sharing",
     "Git": "<a href='https://github.com/dutchcoders/transfer.sh'>transfer.sh</a>",
     "Free volume": null,
